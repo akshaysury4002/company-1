@@ -1,0 +1,30 @@
+
+### Create New Application
+
+
+POST http://localhost:8080/company/createEmp HTTP/1.1 
+content-type: application/json
+
+{
+
+"name" : "e", 
+"email":"ram@gmail.com",
+"dob": "2023-01-10", 
+"age" : 25,
+"sal":120000,
+"empStatus":"active"
+
+}
+
+
+### Get All Employee 
+GET http://localhost:8080/company/getemployee
+
+### update
+
+
+### Get  Employee 
+GET http://localhost:8080/company/getEmpbyid/6
+
+### Delete booking By Id 
+DELETE http://localhost:8080/company/delete/3
